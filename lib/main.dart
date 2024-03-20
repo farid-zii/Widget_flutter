@@ -1,6 +1,8 @@
+import 'package:belajar_widget/widgets/sample_bottom_navbar.dart';
 import 'package:belajar_widget/widgets/sample_container.dart';
 import 'package:belajar_widget/widgets/sample_image.dart';
 import 'package:belajar_widget/widgets/sample_image_circle.dart';
+import 'package:belajar_widget/widgets/sample_listtile_listview.dart';
 import 'package:belajar_widget/widgets/sample_listview.dart';
 import 'package:belajar_widget/widgets/sample_listview_builder.dart';
 import 'package:belajar_widget/widgets/sample_text.dart';
@@ -37,7 +39,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
       ),
-      home: SampleListViewBuilder(),
+      home: SampleBottomNavbar(),
     );
   }
 }
